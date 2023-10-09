@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.images{
+  background-color: white;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+  width: 30%;
+}
+ 
+
+
+.emojis:hover .images{
+  
+  opacity: 1 ;
+  visibility: visible;
+  z-index: 1;
+}
+
+.emojis{
+  display: inline;
+  
+}
