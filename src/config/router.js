@@ -53,11 +53,11 @@ function Main() {
 
                 <div><center>
                     <button style={{ width: '120px', height: '50px', fontSize: 'x-large', border: '1px solid black', borderRadius: '10px', marginRight: '10px' }} onClick={() => navigate('/product')}>Products</button>
-                  </center>
+                </center>
                 </div>
 
             </div>
-            <br/>
+            <br />
 
 
             <Outlet />

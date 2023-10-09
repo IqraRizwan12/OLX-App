@@ -3,18 +3,13 @@ import logo from './logo.svg';
 import Router from './config/router';
 
 
-
-
-
-
-
 function App() {
 
- 
+
   return (
     <div className="App">
       <header className="App-header">
-       <Router/>
+        <Router />
       </header>
     </div>
   );
